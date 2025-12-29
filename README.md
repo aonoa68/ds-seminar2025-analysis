@@ -29,17 +29,13 @@
 ├── LICENSE
 ├── requirements.txt
 ├── data/
-│   ├── README.md          # データ構造の説明
-│   └── sample_structure.csv   # データ構造のサンプル（ダミー）
+│   ├── README.md              # データ構造の説明
+│   ├── sample_before.csv      # 事前アンケート（ダミー）
+│   └── sample_after.csv       # 事後アンケート（ダミー）
 ├── notebooks/
-│   ├── 01_data_preprocessing.ipynb
-│   ├── 02_descriptive_analysis.ipynb
-│   ├── 03_statistical_tests.ipynb
-│   └── 04_visualization.ipynb
-├── outputs/
-│   └── figures/           # 生成されたグラフ
+│   └── analysis_main.ipynb    # 統計分析・可視化コード
 └── docs/
-    └── survey_items.md    # アンケート項目一覧
+    └── survey_items.md        # アンケート項目一覧
 ```
 
 ## 環境構築
